@@ -6,3 +6,4 @@ define('DB_user', 'admin');
 
 define('DB_password', 'password');
 
+require_once "Models/Product.php";
