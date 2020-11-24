@@ -79,7 +79,7 @@ class Product {
 
         session_start();
         $_SESSION['cart'][] = (array) $item;
-
+        $_SESSION['index'][] = (array) $item;
         return true;
     }
 
@@ -100,4 +100,5 @@ class Product {
 
         return false;
     }
+
 }
