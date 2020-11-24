@@ -1,7 +1,5 @@
 <?php
-
 require_once "Models/Product.php";
-
 ?>
 
 <h1>Все данные из БД</h1>

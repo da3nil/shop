@@ -38,13 +38,13 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="logo">
-                        <h1><a href="index.html">e<span>Electronics</span></a></h1>
+                        <h1><a href="index.php">e<span>Electronics</span></a></h1>
                     </div>
                 </div>
                 
                 <div class="col-sm-6">
                     <div class="shopping-item">
-                        <a href="cart.html">Корзина - <span class="cart-amunt">$800</span> <i class="fa fa-shopping-cart"></i> <span class="product-count">5</span></a>
+                        <a href="cart.php">Корзина - <span class="cart-amunt">$800</span> <i class="fa fa-shopping-cart"></i> <span class="product-count">5</span></a>
                     </div>
                 </div>
             </div>
@@ -64,9 +64,9 @@
                 </div> 
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Главная</a></li>
-                        <li><a href="shop.html">Магазин</a></li>
-                        <li><a href="cart.html">Корзина</a></li>
+                        <li class="active"><a href="index.php">Главная</a></li>
+                        <li><a href="shop.php">Каталог</a></li>
+                        <li><a href="cart.php">Корзина</a></li>
                     </ul>
                 </div>  
             </div>

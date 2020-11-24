@@ -2,7 +2,7 @@
 
 define('DB_name', 'ramil-shop');
 
-define('DB_user', 'admin');
+define('DB_user', 'root');
 
-define('DB_password', 'password');
+define('DB_password', '');
 
