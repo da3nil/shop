@@ -95,7 +95,6 @@ require_once "server/config.php";
                         <h5 class="card-title"><?php echo $item->name ?></h5>
                         <p class="card-text">
                             <?php echo $item->desc ?></p>
-
                     </div>
                     <div class="card-footer">
                         <small class="text-muted"><p class="" >Цена: <?php echo $item->price ?><a href="#" class="btn btn-primary float-right"> в корзину</a></p>
