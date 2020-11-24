@@ -3,7 +3,6 @@
 require_once "server/config.php";
 
 ?>
-<!--<pre>--><?php //var_dump($_SERVER);?><!--</pre>-->
 
 <h1>Данные из сессии</h1>
 <pre><?php var_dump($_SESSION);?></pre>
