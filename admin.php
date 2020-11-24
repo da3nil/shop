@@ -12,14 +12,12 @@ require_once "server/config.php";
     <title>eElectronics - HTML eCommerce Template</title>
 
     <!-- Google Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet'
-          type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-          integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -37,8 +35,6 @@ require_once "server/config.php";
     <![endif]-->
 </head>
 <body>
-
-
 <div class="site-branding-area">
     <div class="container">
         <div class="row">
@@ -47,7 +43,6 @@ require_once "server/config.php";
                     <h1><a href="index.php">e<span>Electronics</span></a></h1>
                 </div>
             </div>
-
             <div class="col-sm-3">
                 <div class="shopping-item ">
                     <div class="dropdown position-relative">
@@ -57,79 +52,52 @@ require_once "server/config.php";
                         </a>
 
                         <div class="dropdown-menu  " style="left: -40px"  aria-labelledby="dropdownMenuLink">
-                                <form action="server/Auth.php" class="text-center" method="post">
-                                    <p class="col-md-12"> <input type="text" name="login" placeholder="login"></p>
-                                    <p> <input type="password" name="password" placeholder="password"></p>
-                                    <button  type="submit">вход</button>
-                                </form>
+                            <form action="server/Auth.php" class="text-center" method="post">
+                                <p class="col-md-12"> <input type="text" name="login" placeholder="login"></p>
+                                <p> <input type="password" name="password" placeholder="password"></p>
+                                <button  type="submit">вход</button>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-sm-3">
                 <div class="shopping-item">
-                    <a href="cart.php">Корзина - <span class="cart-amunt"><?php echo $_SESSION['total'] ?> Руб.</span> <i class="fa fa-shopping-cart"></i>
-                        <span class="product-count"><?php echo  (count($_SESSION['cart']))?></span></a>
+                    <a href="cart.php">Корзина - <span class="cart-amunt"><?php echo $_SESSION['total'] ?> Руб.</span> <i class="fa fa-shopping-cart"></i> <span class="product-count"><?php echo  (count($_SESSION['cart']))?></span></a>
                 </div>
             </div>
         </div>
     </div>
 </div> <!-- End site branding area -->
-
 <div class="mainmenu-area">
     <div class="container">
         <div class="row">
             <div class="navbar navbar-expand-lg">
                 <ul class="nav navbar-nav">
-                    <li><a href="index.php">Главная</a></li>
-                    <li class="active"><a href="shop.php">Каталог</a></li>
+                    <li class="active"><a href="index.php">Главная</a></li>
+                    <li><a href="shop.php">Каталог</a></li>
                     <li><a href="cart.php">Корзина</a></li>
                 </ul>
             </div>
         </div>
     </div>
-</div> <!-- End mainmenu area -->
-
-<div class="product-big-title-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="product-bit-title text-center">
-                    <h2>Каталог</h2>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
+<div class="container mt-3">
+    <h2>Заказы:</h2>
 
-<div class="container">
-    <h1>Все данные из БД</h1>
-    <div class="card-deck">
-        <?php foreach (Product::all() as $item): ?>
-            <div class="col-md-4 mb-3">
-                <div class="card  h-100" style="width: 18rem;">
-                    <img src="<?php echo $item->image ?>" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title"><?php echo $item->name ?></h5>
-                        <p class="card-text">
-                            <?php echo $item->desc ?></p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted"><p class="" >Цена: <?php echo $item->price ?><a href="test.php?add_cart=<?php echo $item->id ?>" class="btn btn-primary float-right"> в корзину</a></p>
-                            </small>
-                    </div>
-                </div>
-            </div>
 
-        <?php endforeach; ?>
-    </div>
-
-</div>
+</div><!-- End mainmenu area -->
 
 
 
 
-<!-- Latest jQuery form server -->
+
+
+
+
+
+
+
 <script src="https://code.jquery.com/jquery.min.js"></script>
 
 <!-- Bootstrap JS form CDN -->

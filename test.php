@@ -42,7 +42,6 @@ require_once "server/config.php";
     </div>
     <hr>
 <?php endforeach; ?>
-
 <br><br><br><br><br>
 
 <h1>Выборочные данные из бд</h1>

@@ -35,7 +35,7 @@ require_once "server/config.php";
     <![endif]-->
   </head>
   <body>
-   
+
 
     
     <div class="site-branding-area">
@@ -46,10 +46,27 @@ require_once "server/config.php";
                         <h1><a href="index.php">e<span>Electronics</span></a></h1>
                     </div>
                 </div>
-                
-                <div class="col-sm-6">
+                <div class="col-sm-3">
+                    <div class="shopping-item ">
+                        <div class="dropdown position-relative">
+                            <a class=" dropdown-toggle " href="" role="button" id="dropdownMenuLink" data-display="static"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Вход
+                            </a>
+
+                            <div class="dropdown-menu  " style="left: -40px"  aria-labelledby="dropdownMenuLink">
+                                <form action="server/Auth.php" class="text-center" method="post">
+                                    <p class="col-md-12"> <input type="text" name="login" placeholder="login"></p>
+                                    <p> <input type="password" name="password" placeholder="password"></p>
+                                    <button  type="submit">вход</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
                     <div class="shopping-item">
-                        <a href="cart.php">Корзина - <span class="cart-amunt">$800</span> <i class="fa fa-shopping-cart"></i> <span class="product-count">5</span></a>
+                        <a href="cart.php">Корзина - <span class="cart-amunt"><?php echo $_SESSION['total'] ?> Руб.</span> <i class="fa fa-shopping-cart"></i> <span class="product-count"><?php echo  (count($_SESSION['cart']))?></span></a>
                     </div>
                 </div>
             </div>
@@ -165,7 +182,7 @@ require_once "server/config.php";
     <script src="https://code.jquery.com/jquery.min.js"></script>
     
     <!-- Bootstrap JS form CDN -->
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     
     <!-- jQuery sticky menu -->
     <script src="js/owl.carousel.min.js"></script>
