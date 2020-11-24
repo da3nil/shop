@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="add72056-99ce-4fd6-a534-0807114c075d" name="Default Changelist" comment="" />
+    <list default="true" id="f24c0c20-65e3-4509-beb6-6304582a6c39" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,36 +16,68 @@
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="ProjectId" id="1khYWpSidIjrKYNreuZuDVMfpUa" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kjoCexQlofsdeEltq3pQThqD4s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../rio-dom.office.local/public_html" />
-    <property name="vue.rearranger.settings.migration" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="add72056-99ce-4fd6-a534-0807114c075d" name="Default Changelist" comment="" />
-      <created>1606154324331</created>
+      <changelist id="f24c0c20-65e3-4509-beb6-6304582a6c39" name="Default Changelist" comment="" />
+      <created>1606223235286</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1606154324331</updated>
-      <workItem from="1606154325402" duration="781000" />
+      <updated>1606223235286</updated>
+      <workItem from="1606223236439" duration="3870000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="466" y="155" key="FileChooserDialogImpl" timestamp="1606155844364">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1606223305956">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="466" y="155" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1606155844364" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1606223305956" />
+    <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1606223266253">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606223266253" />
+    <state x="457" y="243" key="Github.ShareDialog" timestamp="1606223297713">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="457" y="243" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1606223297713" />
+    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606223300695">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1606223300695" />
+    <state x="484" y="152" key="git4idea.merge.GitPullDialog" timestamp="1606223279905">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="484" y="152" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1606223279905" />
+    <state x="484" y="270" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1606223333070">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="484" y="270" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728@0.0.1366.728" timestamp="1606223333070" />
+    <state x="497" y="49" key="svn.repositoryBrowser" timestamp="1606223271352">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="497" y="49" key="svn.repositoryBrowser/0.0.1366.728@0.0.1366.728" timestamp="1606223271352" />
   </component>
 </project>
