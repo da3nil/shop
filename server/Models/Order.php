@@ -155,8 +155,6 @@ class Order {
 
         $query = "INSERT INTO orders(phone, total) VALUES ('$phone', $total)";
 
-//        die($query);
-
         $sql = mysqli_query($link, $query);
 
         if ($sql) {
