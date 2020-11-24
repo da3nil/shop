@@ -79,19 +79,21 @@ class Product {
 
         session_start();
         $_SESSION['cart'][] = (array) $item;
-        $_SESSION['index'][] = (array) $item;
+
+        if(empty($_SESSION['total'])) {
+            $_SESSION['total'] = 0;
+        }
+        $_SESSION['total'] += $item->price;
         return true;
     }
 
     public static function delSession($id) {
         session_start();
-
-    //        unset($_SESSION['cart'][3]);
-    //        die();
         array_reverse($_SESSION['cart']);
 
         foreach ($_SESSION['cart'] as $key => $item) {
             if ($item['id'] === $id) {
+                $_SESSION['total'] -= (int) $_SESSION['cart'][$key]['price'];
                 unset($_SESSION['cart'][$key]);
                 array_reverse($_SESSION['cart']);
                 return true;
