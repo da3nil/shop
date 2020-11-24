@@ -2,7 +2,6 @@
 
 class Product {
     public $id;
-    private $link;
     public $name;
     public $desc;
     public $price;
@@ -10,7 +9,6 @@ class Product {
 
     public function __construct($name, $desc, $price, $image, $id = null)
     {
-        $this->link = mysqli_connect('localhost', DB_user, DB_password, DB_name);
         $this->id = $id;
         $this->name = $name;
         $this->desc = $desc;
@@ -72,7 +70,7 @@ class Product {
         return $result[0];
     }
 
-    public function addSession($id) {
+    public static function addSession($id) {
         $item = Product::find($id);
 
         if (empty($item)) {
@@ -80,17 +78,22 @@ class Product {
         }
 
         session_start();
-        $_SESSION['cart'][] = $item;
+        $_SESSION['cart'][] = (array) $item;
 
         return true;
     }
 
-    public function delSession($id) {
+    public static function delSession($id) {
         session_start();
 
-        foreach ($_SESSION['card'] as $key => $item) {
-            if ($item->id === $id) {
+    //        unset($_SESSION['cart'][3]);
+    //        die();
+        array_reverse($_SESSION['cart']);
+
+        foreach ($_SESSION['cart'] as $key => $item) {
+            if ($item['id'] === $id) {
                 unset($_SESSION['cart'][$key]);
+                array_reverse($_SESSION['cart']);
                 return true;
             }
         }
