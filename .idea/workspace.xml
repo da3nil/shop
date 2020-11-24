@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="add72056-99ce-4fd6-a534-0807114c075d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/cart.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/single-product.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/Models/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/config.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,13 +13,11 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GithubProjectSettings">
-    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
-    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="da3nil" />
-    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="shop" />
   </component>
   <component name="ProjectId" id="1khYWpSidIjrKYNreuZuDVMfpUa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -44,10 +39,7 @@
       <recent name="$PROJECT_DIR$/server" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="add72056-99ce-4fd6-a534-0807114c075d" name="Default Changelist" comment="" />
@@ -57,7 +49,7 @@
       <updated>1606154324331</updated>
       <workItem from="1606154325402" duration="781000" />
       <workItem from="1606222726054" duration="597000" />
-      <workItem from="1606224204002" duration="12537000" />
+      <workItem from="1606224204002" duration="15440000" />
     </task>
     <task id="LOCAL-00001" summary="back">
       <created>1606229929080</created>
@@ -80,19 +72,19 @@
       <option name="project" value="LOCAL" />
       <updated>1606237006933</updated>
     </task>
-    <task id="LOCAL-00004" summary="5">
-      <created>1606241272281</created>
+    <task id="LOCAL-00004" summary="back">
+      <created>1606237661422</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1606241272282</updated>
+      <updated>1606237661422</updated>
     </task>
-    <task id="LOCAL-00005" summary="5">
-      <created>1606241339774</created>
+    <task id="LOCAL-00005" summary="back">
+      <created>1606241384105</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1606241339774</updated>
+      <updated>1606241384105</updated>
     </task>
     <option name="localTasksCounter" value="6" />
     <servers />
@@ -102,31 +94,21 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="back" />
-    <MESSAGE value="5" />
-    <option name="LAST_COMMIT_MESSAGE" value="5" />
+    <option name="LAST_COMMIT_MESSAGE" value="back" />
   </component>
   <component name="WindowStateProjectService">
     <state x="278" y="59" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606227616782">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="278" y="59" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1606227616782" />
-    <state x="211" y="0" key="CommitChangelistDialog2" timestamp="1606241339173">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="211" y="27" key="CommitChangelistDialog2" timestamp="1606241383992">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="211" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1606241339173" />
-    <state x="211" y="27" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1606237006801" />
+    <state x="211" y="27" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1606241383992" />
     <state x="466" y="155" key="FileChooserDialogImpl" timestamp="1606223320470">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="466" y="155" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1606223320470" />
-    <state x="472" y="230" key="Github.CreatePullRequestDialog" timestamp="1606241365555">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="472" y="230" key="Github.CreatePullRequestDialog/0.0.1366.728@0.0.1366.728" timestamp="1606241365555" />
-    <state x="544" y="266" key="Github.Dialog.Accounts.Choose" timestamp="1606241357554">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="544" y="266" key="Github.Dialog.Accounts.Choose/0.0.1366.728@0.0.1366.728" timestamp="1606241357554" />
     <state x="664" y="186" key="Github.ShareDialog" timestamp="1606222822399">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -139,14 +121,17 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="266" y="143" key="IDE.errors.dialog/0.27.1366.741@0.27.1366.741" timestamp="1606222734556" />
+    <state x="314" y="152" key="MultipleFileMergeDialog" timestamp="1606241400515">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="314" y="152" key="MultipleFileMergeDialog/0.27.1366.741@0.27.1366.741" timestamp="1606241400515" />
     <state x="500" y="319" key="NewPhpFileDialog" timestamp="1606237508375">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="500" y="319" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1606237508375" />
-    <state x="278" y="100" key="Vcs.Push.Dialog.v2" timestamp="1606241345378">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="278" y="129" key="Vcs.Push.Dialog.v2" timestamp="1606237663028">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606241345378" />
-    <state x="278" y="129" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1606237008514" />
+    <state x="278" y="129" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1606237663028" />
   </component>
 </project>
