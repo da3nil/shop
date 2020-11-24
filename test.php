@@ -3,8 +3,15 @@
 require_once "server/config.php";
 
 ?>
-<pre><?php var_dump($_SERVER);?></pre>
+<!--<pre>--><?php //var_dump($_SERVER);?><!--</pre>-->
 
+<h1>Данные из сессии</h1>
+<pre><?php var_dump($_SESSION);?></pre>
+
+<div><a href="test.php?add_cart=1">Добавить товар с id 1 товар в корзину</a></div>
+<div><a href="test.php?add_cart=2">Добавить товар с id 2 товар в корзину</a></div>
+<div><a href="test.php?del_cart=1">Удалить  товар с id 1</a></div>
+<div><a href="test.php?delAll_cart">Очистить корзину</a></div>
 
 <h1>Все данные из БД</h1>
 <?php foreach (Product::all() as $item): ?>
