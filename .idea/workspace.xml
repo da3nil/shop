@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="add72056-99ce-4fd6-a534-0807114c075d" name="Default Changelist" comment="" />
+    <list default="true" id="add72056-99ce-4fd6-a534-0807114c075d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/server/Models/Model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/Models/Product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/ORM/DB.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/ramil-shop.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +18,11 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1khYWpSidIjrKYNreuZuDVMfpUa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -18,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../rio-dom.office.local/public_html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -30,6 +42,8 @@
       <option name="presentableId" value="Default" />
       <updated>1606154324331</updated>
       <workItem from="1606154325402" duration="781000" />
+      <workItem from="1606222726054" duration="597000" />
+      <workItem from="1606224204002" duration="5712000" />
     </task>
     <servers />
   </component>
@@ -37,9 +51,29 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="466" y="155" key="FileChooserDialogImpl" timestamp="1606155844364">
+    <state x="278" y="59" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606227616782">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="466" y="155" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1606155844364" />
+    <state x="278" y="59" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1606227616782" />
+    <state x="466" y="155" key="FileChooserDialogImpl" timestamp="1606223320470">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="466" y="155" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1606223320470" />
+    <state x="664" y="186" key="Github.ShareDialog" timestamp="1606222822399">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="664" y="186" key="Github.ShareDialog/0.27.1366.741@0.27.1366.741" timestamp="1606222822399" />
+    <state x="502" y="27" key="Github.UntrackedFilesDialog" timestamp="1606222828477">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="502" y="27" key="Github.UntrackedFilesDialog/0.27.1366.741@0.27.1366.741" timestamp="1606222828477" />
+    <state x="266" y="143" key="IDE.errors.dialog" timestamp="1606222734556">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="266" y="143" key="IDE.errors.dialog/0.27.1366.741@0.27.1366.741" timestamp="1606222734556" />
+    <state x="500" y="319" key="NewPhpFileDialog" timestamp="1606228033620">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="500" y="319" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1606228033620" />
   </component>
 </project>
