@@ -99,7 +99,6 @@ class Product {
                 return true;
             }
         }
-
         return false;
     }
 

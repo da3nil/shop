@@ -1,37 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:Danil" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </select>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="add72056-99ce-4fd6-a534-0807114c075d" name="Default Changelist" comment="back">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="add72056-99ce-4fd6-a534-0807114c075d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/server/Models/OrderPosition.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/Order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/Models/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/Models/Order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/Models/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/ramil-shop.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +23,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectId" id="1khYWpSidIjrKYNreuZuDVMfpUa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -68,10 +44,7 @@
       <recent name="$PROJECT_DIR$/server" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="add72056-99ce-4fd6-a534-0807114c075d" name="Default Changelist" comment="" />
@@ -81,7 +54,7 @@
       <updated>1606154324331</updated>
       <workItem from="1606154325402" duration="781000" />
       <workItem from="1606222726054" duration="597000" />
-      <workItem from="1606224204002" duration="15440000" />
+      <workItem from="1606224204002" duration="25964000" />
     </task>
     <task id="LOCAL-00001" summary="back">
       <created>1606229929080</created>
@@ -118,23 +91,18 @@
       <option name="project" value="LOCAL" />
       <updated>1606241384105</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="back">
+      <created>1606242949736</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606242949736</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="back" />
@@ -145,11 +113,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="278" y="59" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1606227616782" />
-    <state x="211" y="0" key="CommitChangelistDialog2" timestamp="1606254327974">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="211" y="27" key="CommitChangelistDialog2" timestamp="1606242949596">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="211" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1606254327974" />
-    <state x="211" y="27" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1606241383992" />
+    <state x="211" y="27" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1606242949596" />
     <state x="466" y="155" key="FileChooserDialogImpl" timestamp="1606223320470">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -170,19 +137,13 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="314" y="152" key="MultipleFileMergeDialog/0.27.1366.741@0.27.1366.741" timestamp="1606241400515" />
-    <state x="500" y="287" key="NewPhpFileDialog" timestamp="1606252891950">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="500" y="319" key="NewPhpFileDialog" timestamp="1606250938853">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="500" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1606252891950" />
-    <state x="500" y="319" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1606237508375" />
-    <state x="278" y="100" key="Vcs.Push.Dialog.v2" timestamp="1606254275683">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="500" y="319" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1606250938853" />
+    <state x="278" y="129" key="Vcs.Push.Dialog.v2" timestamp="1606242951349">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606254275683" />
-    <state x="278" y="129" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1606237663028" />
-    <state x="405" y="152" key="git4idea.merge.GitPullDialog" timestamp="1606254314187">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="405" y="152" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1606254314187" />
+    <state x="278" y="129" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1606242951349" />
   </component>
 </project>

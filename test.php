@@ -4,6 +4,16 @@ require_once "server/config.php";
 
 ?>
 
+<h1>Заявки</h1>
+
+<pre>
+    <?php var_dump(Order::all()); ?>
+</pre>
+
+<pre>
+    <?php var_dump(Order::find(2)); ?>
+</pre>
+
 <h1>Данные из сессии</h1>
 <pre><?php var_dump($_SESSION);?></pre>
 
@@ -11,6 +21,14 @@ require_once "server/config.php";
 <div><a href="test.php?add_cart=2">Добавить товар с id 2 товар в корзину</a></div>
 <div><a href="test.php?del_cart=1">Удалить  товар с id 1</a></div>
 <div><a href="test.php?delAll_cart">Очистить корзину</a></div>
+
+<h1>Отправка заявки</h1>
+<div>
+    <form action="server/Order.php" method="post">
+        <input type="text" name="phone" placeholder="телефон">
+        <button type="submit">отправить</button>
+    </form>
+</div>
 
 <h1>Вход</h1>
 <div>
