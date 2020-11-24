@@ -13,6 +13,15 @@ require_once "server/config.php";
 <div><a href="test.php?del_cart=1">Удалить  товар с id 1</a></div>
 <div><a href="test.php?delAll_cart">Очистить корзину</a></div>
 
+<h1>Вход</h1>
+<div>
+    <form action="server/Auth.php" method="post">
+        <input type="text" name="login" placeholder="login">
+        <input type="password" name="password" placeholder="password">
+        <button type="submit">вход</button>
+    </form>
+</div>
+
 <h1>Все данные из БД</h1>
 <?php foreach (Product::all() as $item): ?>
     <div>
