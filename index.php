@@ -117,12 +117,12 @@ require_once "server/config.php";
                                 <div class="product-f-image">
                                     <img src="<?php echo $item->image ?>" alt="">
                                     <div class="product-hover">
-                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> в корзину</a>
+                                        <a href="#" class="view-details-link"><i class="fa fa-link"></i>подробнее...</a>
                                     </div>
                                 </div>
 
-                                <h2><a href="single-product.html"><?php echo $item->name ?></a></h2>
+                                <h2><a href="#"><?php echo $item->name ?></a></h2>
 
                                 <div class="product-carousel-price">
                                     <ins><?php echo $item->price ?>
