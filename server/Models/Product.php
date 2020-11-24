@@ -1,5 +1,4 @@
 <?php
-require_once "config.php";
 
 class Product {
     public $id;
@@ -21,7 +20,6 @@ class Product {
 
     public static function all()
     {
-
         $link = mysqli_connect('localhost', DB_user, DB_password, DB_name);
 
         mysqli_set_charset($link, "utf8");
@@ -72,5 +70,31 @@ class Product {
         }
 
         return $result[0];
+    }
+
+    public function addSession($id) {
+        $item = Product::find($id);
+
+        if (empty($item)) {
+            return false;
+        }
+
+        session_start();
+        $_SESSION['cart'][] = $item;
+
+        return true;
+    }
+
+    public function delSession($id) {
+        session_start();
+
+        foreach ($_SESSION['card'] as $key => $item) {
+            if ($item->id === $id) {
+                unset($_SESSION['cart'][$key]);
+                return true;
+            }
+        }
+
+        return false;
     }
 }

@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="add72056-99ce-4fd6-a534-0807114c075d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/cart.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/Models/Product.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/single-product.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +30,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/server" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
-  <component name="SvnConfiguration">
-    <configuration />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server" />
+    </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="add72056-99ce-4fd6-a534-0807114c075d" name="Default Changelist" comment="" />
@@ -51,23 +45,34 @@
       <updated>1606154324331</updated>
       <workItem from="1606154325402" duration="781000" />
       <workItem from="1606222726054" duration="597000" />
-      <workItem from="1606224204002" duration="5712000" />
+      <workItem from="1606224204002" duration="7819000" />
     </task>
+    <task id="LOCAL-00001" summary="back">
+      <created>1606229929080</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606229929080</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="back" />
+    <option name="LAST_COMMIT_MESSAGE" value="back" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="278" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606230374333">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="278" y="59" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606227616782">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="278" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1606230374333" />
     <state x="278" y="59" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1606227616782" />
+    <state x="280" y="27" key="CommitChangelistDialog2" timestamp="1606229928882">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="280" y="27" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1606229928882" />
     <state x="466" y="155" key="FileChooserDialogImpl" timestamp="1606223320470">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -84,10 +89,13 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="266" y="143" key="IDE.errors.dialog/0.27.1366.741@0.27.1366.741" timestamp="1606222734556" />
-    <state x="500" y="287" key="NewPhpFileDialog" timestamp="1606232066334">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="500" y="319" key="NewPhpFileDialog" timestamp="1606232331162">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="500" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1606232066334" />
-    <state x="500" y="319" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1606228033620" />
+    <state x="500" y="319" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1606232331162" />
+    <state x="278" y="129" key="Vcs.Push.Dialog.v2" timestamp="1606229932891">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="278" y="129" key="Vcs.Push.Dialog.v2/0.27.1366.741@0.27.1366.741" timestamp="1606229932891" />
   </component>
 </project>
