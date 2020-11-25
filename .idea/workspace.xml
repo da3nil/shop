@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="add72056-99ce-4fd6-a534-0807114c075d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/server/Models/Order.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/Models/Order.php" afterDir="false" />
+    <list default="true" id="add72056-99ce-4fd6-a534-0807114c075d" name="Default Changelist" comment="back">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/ramil-shop (1).sql" beforeDir="false" afterPath="$PROJECT_DIR$/server/ramil-shop (1).sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.php" beforeDir="false" afterPath="$PROJECT_DIR$/shop.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +34,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -49,6 +56,7 @@
       <workItem from="1606154325402" duration="781000" />
       <workItem from="1606222726054" duration="597000" />
       <workItem from="1606224204002" duration="27070000" />
+      <workItem from="1606291287558" duration="4717000" />
     </task>
     <task id="LOCAL-00001" summary="back">
       <created>1606229929080</created>
@@ -99,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606253595376</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="back">
+      <created>1606291541045</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606291541045</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,10 +129,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="278" y="59" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1606227616782" />
-    <state x="211" y="27" key="CommitChangelistDialog2" timestamp="1606253595133">
+    <state x="211" y="27" key="CommitChangelistDialog2" timestamp="1606298057819">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="211" y="27" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1606253595133" />
+    <state x="211" y="27" key="CommitChangelistDialog2/0.27.1366.741@0.27.1366.741" timestamp="1606298057819" />
     <state x="466" y="155" key="FileChooserDialogImpl" timestamp="1606223320470">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -134,10 +149,14 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="266" y="143" key="IDE.errors.dialog/0.27.1366.741@0.27.1366.741" timestamp="1606222734556" />
-    <state x="314" y="152" key="MultipleFileMergeDialog" timestamp="1606241400515">
+    <state x="314" y="152" key="MultipleFileMergeDialog" timestamp="1606291554221">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="314" y="152" key="MultipleFileMergeDialog/0.27.1366.741@0.27.1366.741" timestamp="1606241400515" />
+    <state x="314" y="152" key="MultipleFileMergeDialog/0.27.1366.741@0.27.1366.741" timestamp="1606291554221" />
+    <state x="460" y="102" key="NewPhpClassDialog" timestamp="1606293561644">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="460" y="102" key="NewPhpClassDialog/0.27.1366.741@0.27.1366.741" timestamp="1606293561644" />
     <state x="500" y="319" key="NewPhpFileDialog" timestamp="1606250938853">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

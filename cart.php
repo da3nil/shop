@@ -51,7 +51,7 @@ require_once "server/config.php";
                 <div class="modal-body">
                         <div class="form-group">
                             <label for="exampleInputEmail1">Телефон</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите номер телефона">
+                            <input type="text" class="form-control" name="phone" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите номер телефона">
     <!--                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
                         </div>
 

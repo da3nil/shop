@@ -53,7 +53,7 @@ if ($_SESSION['error']) {
 END;
 }
 ?>
-<div class="">
+<div class="mt-4">
     <div class="card col-md-4  ml-auto mr-auto ">
 
         <form class="p-4" action="server/Auth.php" method="post">

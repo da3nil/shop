@@ -2,6 +2,20 @@
 
 require_once "server/config.php";
 
+$auth = true;
+
+if (isset($_SESSION['hash'])) {
+    if ($_SESSION['hash'] !== APP_hash) {
+        $auth = false;
+    }
+} else {
+    $auth = false;
+}
+
+if (!$auth) {
+    header('Location: login.php');
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -53,7 +67,7 @@ require_once "server/config.php";
                             Вход
                         </a>
 
-                        <div class="dropdown-menu  " style="left: -40px" aria-labelledby="dropdownMenuLink">
+                        <div class="dropdown-menu" style="left: -40px" aria-labelledby="dropdownMenuLink">
                             <form action="server/Auth.php" class="text-center" method="post">
                                 <p class="col-md-12"><input type="text" name="login" placeholder="login"></p>
                                 <p><input type="password" name="password" placeholder="password"></p>
@@ -86,11 +100,9 @@ require_once "server/config.php";
         </div>
     </div>
 </div>
-<div class="container mt-3">
-
-
+<div class="container mt-5">
     <?php foreach (Order::all() as $order): ?>
-    <div><b>Заявка №<?php echo $order->id ?></b></div>
+    <div><b>Заявка №<?php echo $order->id ?></b><br><b><?php echo $order->phone?></b></div>
     <br>
     <table cellspacing="0" class="shop_table cart  ">
         <thead>

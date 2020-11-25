@@ -29,6 +29,12 @@ require_once "server/config.php";
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/responsive.css">
 
+    <style>
+        .card img {
+            padding: 1rem;
+        }
+    </style>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -102,8 +108,7 @@ require_once "server/config.php";
     </div>
 </div>
 
-<div class="container">
-    <h1>Все данные из БД</h1>
+<div class="container mt-4">
     <div class="card-deck">
         <?php foreach (Product::all() as $item): ?>
             <div class="col-md-4 mb-3">
@@ -120,13 +125,10 @@ require_once "server/config.php";
                     </div>
                 </div>
             </div>
-
         <?php endforeach; ?>
     </div>
 
 </div>
-
-
 
 
 <!-- Latest jQuery form server -->

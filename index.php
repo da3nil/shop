@@ -129,14 +129,10 @@ require_once "server/config.php";
                     <div class="latest-product">
                         <h2 class="section-title">Последние продукты</h2>
                         <div class="product-carousel">
-<?php foreach (Product::all() as $item): ?>
+                            <?php foreach (Product::all() as $item): ?>
                             <div class="single-product">
                                 <div class="product-f-image">
                                     <img src="<?php echo $item->image ?>" alt="">
-                                    <div class="product-hover">
-                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> в корзину</a>
-                                        <a href="#" class="view-details-link"><i class="fa fa-link"></i>подробнее...</a>
-                                    </div>
                                 </div>
 
                                 <h2><a href="#"><?php echo $item->name ?></a></h2>
