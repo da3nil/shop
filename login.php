@@ -56,14 +56,14 @@ END;
 <div class="">
     <div class="card col-md-4  ml-auto mr-auto ">
 
-        <form class=" p-4">
+        <form class="p-4" action="server/Auth.php" method="post">
             <div class="form-group">
                 <label for="login">Логин</label>
-                <input type="login" class="form-control" id="login" placeholder="Login">
+                <input type="login" class="form-control" id="login" name="login" placeholder="Login">
             </div>
             <div class="form-group">
                 <label for="password">Пароль</label>
-                <input type="password" class="form-control" id="password" placeholder="Password">
+                <input type="password" class="form-control" id="password" name="password" placeholder="Password">
             </div>
             <div class="form-group">
                 <div class="form-check">

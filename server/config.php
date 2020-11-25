@@ -4,9 +4,9 @@ session_start();
 
 define('DB_name', 'ramil-shop');
 
-define('DB_user', 'root');
+define('DB_user', 'admin');
 
-define('DB_password', '');
+define('DB_password', 'password');
 
 define('APP_login', 'login');
 

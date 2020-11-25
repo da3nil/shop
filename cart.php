@@ -38,6 +38,33 @@ require_once "server/config.php";
 </head>
 <body>
 
+<div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Оформить заказ</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form action="server/Order.php" method="post">
+                <div class="modal-body">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Телефон</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите номер телефона">
+    <!--                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+                        </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                    <button type="submit" class="btn btn-primary" style="padding: 6px 12px; text-transform: capitalize">Подтвердить</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
 <div class="site-branding-area">
     <div class="container">
         <div class="row">
@@ -151,8 +178,8 @@ require_once "server/config.php";
                     <div class="cart-collaterals">
 
 
-                        <nav>Итоговая цена:<?php echo $_SESSION['total'] ?> Руб.<a href="#"><input type="submit"
-                         value="Оформить заказ"name="proceed" class="float-right checkout-button button alt wc-forward"></a>
+                        <nav>Итоговая цена:<?php echo $_SESSION['total'] ?> Руб.<a href="#cartModal" data-toggle="modal" data-target="#cartModal"><input type="submit"
+                         value="Оформить заказ" name="proceed" class="float-right checkout-button button alt wc-forward"></a>
                         </nav>
                     </div>
                 </div>

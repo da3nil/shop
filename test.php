@@ -14,6 +14,21 @@ require_once "server/config.php";
     <?php var_dump(Order::find(2)); ?>
 </pre>
 
+<h1>Заявки (вывод)</h1>
+
+<?php foreach (Order::all() as $order): ?>
+    <div><b>Заявка</b></div>
+    <div><b>id</b> <?php echo $order->id ?></div>
+    <br>
+    <div><b>Её товары</b></div>
+    <?php foreach ($order->positions as $product): ?>
+        <div><b>id</b> <?php echo $product->id ?></div>
+        <div><b>name</b> <?php echo $product->name ?></div>
+    <?php endforeach; ?>
+    <hr>
+    <br>
+<?php endforeach; ?>
+
 <h1>Данные из сессии</h1>
 <pre><?php var_dump($_SESSION);?></pre>
 
