@@ -12,12 +12,14 @@ require_once "server/config.php";
     <title>eElectronics - HTML eCommerce Template</title>
 
     <!-- Google Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,300,700,600' rel='stylesheet'
+          type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+          integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -51,11 +53,11 @@ require_once "server/config.php";
                             Вход
                         </a>
 
-                        <div class="dropdown-menu  " style="left: -40px"  aria-labelledby="dropdownMenuLink">
+                        <div class="dropdown-menu  " style="left: -40px" aria-labelledby="dropdownMenuLink">
                             <form action="server/Auth.php" class="text-center" method="post">
-                                <p class="col-md-12"> <input type="text" name="login" placeholder="login"></p>
-                                <p> <input type="password" name="password" placeholder="password"></p>
-                                <button  type="submit">вход</button>
+                                <p class="col-md-12"><input type="text" name="login" placeholder="login"></p>
+                                <p><input type="password" name="password" placeholder="password"></p>
+                                <button type="submit">вход</button>
                             </form>
                         </div>
                     </div>
@@ -63,7 +65,9 @@ require_once "server/config.php";
             </div>
             <div class="col-sm-3">
                 <div class="shopping-item">
-                    <a href="cart.php">Корзина - <span class="cart-amunt"><?php echo $_SESSION['total'] ?> Руб.</span> <i class="fa fa-shopping-cart"></i> <span class="product-count"><?php echo  (count($_SESSION['cart']))?></span></a>
+                    <a href="cart.php">Корзина - <span class="cart-amunt"><?php echo $_SESSION['total'] ?> Руб.</span>
+                        <i class="fa fa-shopping-cart"></i> <span
+                                class="product-count"><?php echo(count($_SESSION['cart'])) ?></span></a>
                 </div>
             </div>
         </div>
@@ -83,25 +87,53 @@ require_once "server/config.php";
     </div>
 </div>
 <div class="container mt-3">
-    <h2>Заказы:</h2>
 
 
+    <?php foreach (Order::all() as $order): ?>
+    <div><b>Заявка №<?php echo $order->id ?></b></div>
+    <br>
+    <table cellspacing="0" class="shop_table cart  ">
+        <thead>
+        <tr>
+            <th class="product-id">id</th>
+            <th class="product-thumbnail">Товар</th>
+            <th class="product-name">Наименование</th>
+            <th class="product-price">Цена</th>
+
+        </tr>
+        </thead>
+        <tbody>
+
+        <?php foreach ($order->positions as $product): ?>
+            <td class="product-id">
+                <?php echo $product->id ?>
+            </td>
+            <td class="product-thumbnail">
+                <img width="145" height="145" alt="" class="shop_thumbnail"
+                     src="<?php echo $product->image ?>">
+            </td>
+
+            <td class="product-name">
+                <a href="#"><?php echo $product->name ?></a>
+            </td>
+            <td class="product-subtotal">
+                <span class="amount"><?php echo $product->price ?></span>
+            </td>
+            </tr>
+        <?php endforeach; ?>
+
+        </tbody>
+    </table>
+    <?php endforeach; ?>
 </div><!-- End mainmenu area -->
-
-
-
-
-
-
-
-
-
 
 
 <script src="https://code.jquery.com/jquery.min.js"></script>
 
 <!-- Bootstrap JS form CDN -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
 
 <!-- jQuery sticky menu -->
 <script src="js/owl.carousel.min.js"></script>

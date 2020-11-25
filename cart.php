@@ -166,11 +166,11 @@ require_once "server/config.php";
                                 <td class="product-subtotal">
                                     <span class="amount"><?php echo $item['price'] ?></span>
                                 </td>
-                                <?php endforeach; ?>
-                                <?php endif ?>
+
 
                             </tr>
-
+                            <?php endforeach; ?>
+                            <?php endif ?>
                             </tbody>
                         </table>
                     </form>
